@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Name | Web Developer</title>
+  <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+  <link rel="stylesheet" href="portfolio.css" />
+  <link rel="stylesheet" href="media.css">
+</head>
+<body>
+  <!-- Pre-loader -->
+   <div id ="preloader">
+    <div class="loader">
+     <img src="Portfolio.png" alt="">
+    </div>
+   </div>
+
+  <!-- HEADEAR -->
+   <div class="maincontent">
+
+  <header class="header">
+     <button class="themeSwitch">
+     
+        <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-120q-150 0-255-105T120-480q0-150 105-255t255-105q14 0 27.5 1t26.5 3q-41 29-65.5 75.5T444-660q0 90 63 153t153 63q55 0 101-24.5t75-65.5q2 13 3 26.5t1 27.5q0 150-105 255T480-120Zm0-80q88 0 158-48.5T740-375q-20 5-40 8t-40 3q-123 0-209.5-86.5T364-660q0-20 3-40t8-40q-78 32-126.5 102T200-480q0 116 82 198t198 82Zm-10-270Z"/></svg>
+
+           <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#1f1f1f"><path d="M480-360q50 0 85-35t35-85q0-50-35-85t-85-35q-50 0-85 35t-35 85q0 50 35 85t85 35Zm0 80q-83 0-141.5-58.5T280-480q0-83 58.5-141.5T480-680q83 0 141.5 58.5T680-480q0 83-58.5 141.5T480-280ZM200-440H40v-80h160v80Zm720 0H760v-80h160v80ZM440-760v-160h80v160h-80Zm0 720v-160h80v160h-80ZM256-650l-101-97 57-59 96 100-52 56Zm492 496-97-101 53-55 101 97-57 59Zm-98-550 97-101 59 57-100 96-56-52ZM154-212l101-97 55 53-97 101-59-57Zm326-268Z"/></svg>
+      </button>
+    <nav class="nav container">
+      <h1 class="logo">IFEOLUWA</h1>
+      <div class="menu-btn" id="menuBtn">☰</div>
+      <ul class="nav-links" id="navLinks">
+        <li><a class="a"  href="#home">Home</a></li>
+        <li><a class="a"  href="#about">About</a></li>
+        <li><a class="a" href="#skills">Skills</a></li>
+        <li><a class="a" href="#projects">Projects</a></li>
+        <li><a class="a"  href="#contact">Contact</a></li>
+      </ul>
+
+    </nav>
+
+         
+  </header>
+
+  <!--  HERO / HOME -->
+  <section id="home" class="hero">
+    <!-- STAR BACKGROUND -->
+    <div class="stars"></div>
+
+    <!-- HERO CONTENT -->
+    <div class="hero-container container">
+      <div class="hero-text">
+        <h1>Hi, I’m <span>IfEOLUWA</span></h1>
+      <h2>A <span id="typed"></span></h2>
+        <p>I build modern, responsive websites with clean code and smooth user experience.</p>
+        <div class="hero-buttons">
+          <a href="#projects" class="btn primary">Projects</a>
+          <a href="#contact" class="btn outline">Contact</a>
+        </div>
+      </div>
+      <div class="hero-image">
+        <img src="/20251213_172104.jpg" alt="Your Name">
+      </div>
+
+      <div class="social">
+        <a href="https://www.facebook.com/loviecode"><img src="/communication.png" alt=""></a>
+        <a href="https://www.linkedin.com/in/ifeoluwa-morakinyo-141047378/"><img  src="/linkedin.png" alt=""></a>
+      </div>
+    </div>
+  </section>
+
+<!-- ABOUT PAGE -->
+  <section id="about" class="section about  reveal">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <p class="section-text">
+      I am a passionate web developer and student, focused on building responsive, interactive, and modern web applications. Over the past year, I have been expanding my skills in HTML, CSS, JavaScript,Tailwind Css, Ai Enthusiasm, and Java, and recently started exploring backend development with Java and nodejs, which has strengthened my problem solving and programming abilities. I also build a portfolio website for agency and a proffessional body. <span id="dots">...</span> <span id ="more">
+
+ Currently studying Finance, I aim to combine my technical skills with business knowledge to create solutions that help both small shops and large enterprises succeed online. I enjoy collaborating with others, learning from different perspectives, and contributing to meaningful projects.
+
+My goal is to continue growing as a developer, building impactful digital products, and eventually contributing to innovative fintech platforms while helping businesses thrive through technology.
+
+      </span>
+      <button onclick="myFunction()" id ="myBtn">
+  Read more
+</button>
+
+
+      </p>
+    </div>
+  </section>
+
+<section id="skills" class="section skills reveal">
+  <div class="container">
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skill">
+      <p>HTML <span>93%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 93%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>CSS <span>85%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 85%;"></div>
+      </div>
+    </div>
+
+    <div class="skill">
+      <p>JavaScript <span>75%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 75%;"></div>
+      </div>
+    </div>
+       <div class="skill">
+      <p>Tailwind <span>65%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 65%;"></div>
+      </div>
+    </div>
+
+     <div class="skill">
+      <p>GitHub <span>55%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 55%;"></div>
+      </div>
+    </div>
+
+    <div class="skill" >
+      <p>Java <span>10%</span></p>
+      <div class="skill-bar">
+        <div class="skill-fill" style="width: 10%;"></div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+  <section id="projects" class="section projects reveal">
+  <div class="container">
+    <h2 class="section-title">Projects</h2>
+
+
+
+    <div class="project-card">
+   <a class="atag" href="https://osunboy001.github.io/Law-Agency-Web/ "> <img   src="lawyerweb.png" alt="Project 2" ></a>   
+
+      <div class="project-content">        
+        <h3>LAWYER WEB</h3>
+        <p>
+    A modern, responsive lawyer website built with a focus on professionalism, clarity, and user trust. Designed with a clean layout, smooth animations, and intuitive navigation to deliver a strong and credible online presence for legal professionals.
+        </p>
+
+        <div class="project-links">
+          <a href="https://osunboy001.github.io/Law-Agency-Web/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/Law-Agency-Web" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+    <div class="project-card">
+    <a class="atag" href="https://stellar-rabanadas-112ddc.netlify.app/"> <img   src="Clothseller.png" alt="Project 2" ></a>   
+
+      <div class="project-content">
+        <h3>Business Website</h3>
+        <p>
+        Beccah Couture is a fashion-focused e-commerce style website designed to showcase a clothing brand’s products and engage users with a clean, modern browsing experience. The site highlights the brand’s mission, product offerings, customer feedback, and contact options, all within a single streamlined layout.
+        </p>
+
+        <div class="project-links">
+          <a href="https://stellar-rabanadas-112ddc.netlify.app/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/Business-.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="project-card">
+      <a class="atag" href="https://osunboy001.github.io/BOOT-CAMP-website/"> <img   src="boot-camp.png" alt="Project 2" ></a>
+
+      <div class="project-content">        
+        <h3>  BOOT CAMP PAGE</h3>
+        <p>
+       The O-BOOTCAMP website is a responsive, multi-section educational platform designed to showcase a digital bootcamp and its services. The project focuses on clear structure, smooth navigation, and a professional layout that introduces users to the bootcamp’s offerings, journey, and team.
+        </p>
+
+        <div class="project-links">
+          <a href="https://osunboy001.github.io/BOOT-CAMP-website/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/BOOT-CAMP-website.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+
+     <div class="project-card">
+      <a class="atag" href="https://osunboy001.github.io/WEATHEER-APP/"> <img   src="weather.png" ></a>
+
+      <div class="project-content">
+        <h3>WEATHER APP</h3>
+        <p>
+        A real time web application built with HTML, CSS, and JavaScript that fetches and displays current weather conditions for a chosen city. It shows temperature, humidity, wind speed, and weather visuals using external weather API data. This project demonstrates API integration, asynchronous JavaScript, and dynamic page updates  moving beyond static layout to build interactive and practical user experiences.
+        </p>
+
+        <div class="project-links ">
+          <a href="https://osunboy001.github.io/WEATHEER-APP/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/WEATHEER-APP.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+     <div class="project-card">
+      <a class="atag" href="https://osunboy001.github.io/My-Todo-list/"> <img   src="Todoolist.png" ></a>
+
+      <div class="project-content">
+        <h3>Todo List</h3>
+        <p>
+       ToDo List Web App: A dynamic web application that allows users to add, delete, and clear tasks. Built with HTML, CSS, and JavaScript, this project demonstrates real time user interaction, DOM manipulation, and event handling key fundamentals of dynamic web applications.
+        </p>
+
+        <div class="project-links ">
+          <a href="https://osunboy001.github.io/My-Todo-list/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/Todo-list.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+    
+
+      <div class="project-card">
+  <a class="atag" href="https://osunboy001.github.io/Seceart-Message/"> <img   src="secreet mes.png" ></a>
+
+      <div class="project-content">
+        <h3>Secret Message</h3>
+        <p>
+     Secret Messages is an interactive web application that allows users to enter text and create a secret message that can be shared with others. Built with HTML, CSS, and JavaScript, this project demonstrates form handling and user input processing in a simple UI, showing skills in building interactive features beyond static content.
+        </p>
+
+        <div class="project-links ">
+          <a href="https://osunboy001.github.io/Seceart-Message/" target="_blank">Live Demo</a>
+          <a href="https://github.com/Osunboy001/Secear-Message.git" target="_blank">GitHub</a>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+</section>
+
+  <!--CONTACT --> 
+  <section id="contact" class="section contact reveal">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" id="name" required>
+        <input type="email" placeholder="Your Email" id="email" type="email" required>
+        <textarea id="message" placeholder="Your Message" required></textarea>
+        <button type="submit" class="btn primary">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!--FOOTER -->
+  <footer class="footer">
+    <p>© <span id ="year"></span> Ifeoluwa. All rights reserved.</p>
+  </footer>
+
+
+   </div>
+
+   <!-- WHATAPP ICON -->
+
+   <a
+  href="https://wa.me/2348157240158"
+  class="whatsapp-btn"
+  target="_blank"
+  aria-label="Chat on WhatsApp"
+>
+  <img class="whatapp" src="Ícone_do_logotipo_do_Whatsapp_Circulo_aplicativo_de_mídia_social_aplicativo_de_rede_marca_editorial_popular_ilustração_vetorial___Vetor_Premium-removebg-preview.png" alt="WhatsApp" />
+</a>
+
+  <script src="portfolio.js"></script>
+</body>
+</html>
