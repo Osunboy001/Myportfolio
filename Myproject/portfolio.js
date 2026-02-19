@@ -162,39 +162,22 @@ function applyBgOnScreen(query, color, co) {
 let darkmode = localStorage.getItem('darkmode');
 
 const themeSwitch = document.querySelector('.themeSwitch');
-
-
 const lastSvg = themeSwitch.querySelector("svg:last-child");
 const firstSvg = themeSwitch.querySelector("svg:first-child");
 
-
 const enableDarkmode = () => {
-
      applyBgOnScreen("(max-width: 900px)", "white", "black" );
-
-
   lastSvg.style.display = "block";
   firstSvg.style.display = "none"
   document.body.classList.add('darkmode');
   localStorage.setItem('darkmode', 'active');
-
 };
 
 
-
-
-
 const disableDarkmode = () => {
-
-      
       // APPLy FUNCTION
 applyBgOnScreen( "(max-width:900px)", "black", "white")
  
-
-
-
-
-
    firstSvg.style.display = "block";
 lastSvg.style.display = "none"
   document.body.classList.remove('darkmode');
@@ -218,3 +201,5 @@ themeSwitch.addEventListener('click', () => {
   darkmode = localStorage.getItem('darkmode');
   darkmode === 'active' ? disableDarkmode() : enableDarkmode();
 });
+
+console.log("Hello")
